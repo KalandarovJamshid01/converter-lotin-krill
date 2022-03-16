@@ -1,0 +1,42 @@
+body {
+  background-color: rgba(1, 1, 49, 0.822);
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  box-sizing: border-box;
+}
+main {
+  background-color: rgb(253, 209, 127);
+  width: 70vw;
+  height: 45vh;
+  display: flex;
+  justify-content: center;
+}
+.section-1,
+.section-2 {
+  width: 48%;
+  text-align: center;
+}
+.section-1 textarea,
+.section-2 textarea {
+  width: 90%;
+  height: 70%;
+  overflow: auto;
+  border-radius: 5px;
+  border: none;
+  font-size: 22px;
+  padding: 10px;
+}
+.section-2 textarea {
+  cursor: not-allowed;
+  background-color: #ddd;
+  opacity: 1;
+}
+.tw-menu-btn-image {
+  width: 5%;
+}
+.tw-menu-btn-image svg {
+  width: 100%;
+}
+/* overflow: auto hidden; ; padding-top: 2px; height: 400px; */
